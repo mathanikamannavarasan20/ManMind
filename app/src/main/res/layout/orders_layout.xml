@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="402dp"
+        android:layout_height="721dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/back"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/order_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_address_city"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Total Price :"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/show_all_product_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_date_time"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-593dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="646dp"
+            android:background="@android:color/primary_text_light"
+            android:text="Show User Order Product"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/order_total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cart_product_quantity"
+            android:layout_marginTop="500dp"
+            android:gravity="center"
+            android:text="Total Price :"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/order_address_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_total_price"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Delivery Charge :"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/show_all_product_btn"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginBottom="-625dp"
+            android:text="Confirm Order" />
+
+        <RelativeLayout
+            android:layout_width="375dp"
+            android:layout_height="446dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="19dp" />
+
+            <TextView
+                android:layout_width="269dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="90dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:text="JBL CLUB 700BT        02"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="4dp"
+                android:text="remove"
+                android:layout_marginTop="85dp"
+                android:textColor="@android:color/red"/>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:layout_marginTop="150dp"/>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:layout_marginTop="75dp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="268dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="180dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:text="android charger          01"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="4dp"
+                android:text="remove"
+                android:layout_marginTop="180dp"
+                android:textColor="@android:color/red"/>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:layout_marginTop="250dp"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Online Shop</string>
+    <string name="activity_search_products">Search</string>
+    <string name="_logout">Logout</string>
+    <string name="_add">ADD</string>
+    <string name="_delete">DELETE</string>
+    <string name="product_price">Product_price</string>
+    <string name="product_quantity">Product_quantity</string>
+    <string name="add_product">ADD PRODUCT</string>
+</resources>
